@@ -93,7 +93,7 @@
         if (height) {
             iframe.height = height;
         }
-        heighty(iframe);
+//        heighty(iframe);//Hugo
         card.parentNode.replaceChild(iframe, card);
         return iframe;
     }

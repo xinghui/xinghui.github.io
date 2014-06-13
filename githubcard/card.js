@@ -155,35 +155,6 @@
             linky(card);
         });
     }
-    
-    function userreposlist(user) {//TODO
-        var url = baseurl + 'users/' + user + "repos";
-        jsonp(url, function (response) {
-            var data = response.data || {};
-           var message = data.message;
-            var defaults = '0';
-            if (message) {
-                data = store(url) || data;
-                defaults = '?';
-            } else {
-                store(url, data);
-            }
-            
-            var description = data.description;
-            if (!description && data.source) {
-                description = data.source.description;
-            }
-            if (!description && message) {
-                description = message;
-            }
-            data.description = description || 'No description';
-            
-            var card = d.createElement('div');
-            card.className = 'github-card user-repos';
-            card.innerHTML = template('repolist', data);
-            linky(card);
-        });
-    }
 
     function repoCard(user, repo) {
         var url = baseurl + 'repos/' + user + '/' + repo;
@@ -243,7 +214,6 @@
         repoCard(qs.user, qs.repo);
     } else {
         userCard(qs.user);
-//        userreposlist(qs.user);//TODO
     }
 
 })(document);
