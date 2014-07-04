@@ -9,15 +9,87 @@
     <link rel="stylesheet" href="../old/css/animate.css">
     <link rel="stylesheet" href="../old/css/font-awesome.min.css">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../old/css/style.css">
     
     
     <title>{{ page.title }}</title>
 </head>
 
 <body>
-    
-    {% include nav.html %}
+    <div class="site-header">
+        <div class="main-navigation">
+            <div class="responsive_menu">
+                <ul>
+                    <li><a class="show-1 github_home" href="#">Gallery1</a>
+                    </li>
+                    <li><a class="show-2 github_page2" href="#">Products</a>
+                    </li>
+                    <li><a class="show-3 github_page3" href="#">Services</a>
+                    </li>
+                    <li><a class="show-4 github_page4" href="#">About Us</a>
+                    </li>
+                    <li><a class="show-5 github_page5" href="#">Contact Us1</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 responsive-menu">
+                        <a href="#" class="menu-toggle-btn">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                    <!-- /.col-md-12 -->
+                    <div class="col-md-12 main_menu">
+                        <ul id="nav">
+                            <li><a class="show-1 github_home" href="#">Home</a>
+                            </li>
+                            <li><a class="show-2 github_page2" href="#">Blog</a>
+                            </li>
+                            <li><a class="show-3 github_page3" href="#">Projects</a>
+<!--
+                                <ul>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Services</a></li>
+                                </ul>
+-->
+                            </li>
+                            <li><a class="show-4 github_page4" href="#">About Me</a>
+                            </li>
+<!--
+                            <li><a class="show-5 github_page5" href="#">Contact Us</a>
+                            </li>
+-->
+                        </ul>
+                    </div>
+                    <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+<!--
+            <a class="navigation-bg" href="#" title="" target="_blank">
+                <img src="images/header.png" alt="" />
+            </a>
+-->
+            <!-- /.container -->
+        </div>
+        <!-- /.main-navigation -->
+        
+<!--
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a class="github_logo" href="http://www.github.com/">
+                        <h1>Concept</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+-->
+        
+    </div>
     
     {{ content }}
     
