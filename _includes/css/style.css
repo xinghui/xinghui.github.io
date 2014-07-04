@@ -303,6 +303,7 @@ li {
 .posts {
     padding: 0;
 }
+
 ul.posts li span {
     float: right;
     font-family: cursive,monospace;
