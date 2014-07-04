@@ -1,6 +1,8 @@
 ---
 layout: default
-title: 你好
+title: test posts
 ---
+
 <h2>{{ page.title }}</h2>
-<p>fjdka</p>
+
+<p>fjdkassssssssssssssssssssssssssssssssssssss</p>
