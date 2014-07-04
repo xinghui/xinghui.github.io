@@ -76,8 +76,7 @@ body {
 
 a {
 /*  color: #b10021;*/
-/*    color: #b10021;*/
-    color:#0383c9;
+    color: #b10021;
 }
 a:active, a:visited, a:link {
   outline: 0;
@@ -461,7 +460,7 @@ a.menu-toggle-btn {
   }
 }
 /*------------------------------------------------------
-  Xinghui STYLING 
+  Hugo STYLING 
 --------------------------------------------------------*/
 
 
@@ -520,6 +519,8 @@ a.menu-toggle-btn {
 #menu-container .blog {
     display: none;
 }
+
+
 /*
 
 .posts { padding:0;}
