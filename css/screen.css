@@ -1,0 +1,27 @@
+---
+---
+
+{% capture screen %}
+/*                *\
+ * $animate.css *
+\*                */
+{% include css/animate.css %}
+/*                *\
+ * $bootstrap.css   *
+\*                */
+{% include css/bootstrap.min.css %}
+/*                *\
+ * $style.css     *
+\*                */
+{% include css/style.css %}
+/*                *\
+ * $font-awesome.css  *
+\*                */
+{% include css/font-awesome.min.css %}
+{% endcapture %}
+
+{% if site.GH_ENV %}
+  {{ screen | strip_newlines | remove: '  ' }}
+{% else %}
+  {{ screen }}
+{% endif %}
