@@ -76,7 +76,7 @@ body {
 
 a {
 /*  color: #b10021;*/
-    color: #b10021;
+    color: #0383c9;
 }
 a:active, a:visited, a:link {
   outline: 0;
@@ -235,7 +235,7 @@ a.menu-toggle-btn {
   }
 }
 /*------------------------------------------------------
-  Hugo STYLING 
+  Xinghui STYLING 
 --------------------------------------------------------*/
 
 
@@ -295,13 +295,19 @@ a.menu-toggle-btn {
     display: none;
 }
 
-
-/*
-
-.posts { padding:0;}
-
-li { padding:0 4px; color:#ccc; list-style: none; }
-
-ul.posts li span { float:right; font-family:monofur, monaco, courier; color:#888; }
-ul.posts li a { font-weight:200;}
-*/
+li {
+    padding: 0 4px;
+    color: #ccc;
+    list-style: none;
+}
+.posts {
+    padding: 0;
+}
+ul.posts li span {
+    float: right;
+    font-family: cursive,monospace;
+    color: #888;
+}
+ul.posts li a {
+    font-weight: 200;
+}
