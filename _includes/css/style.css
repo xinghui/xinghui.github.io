@@ -124,11 +124,12 @@ input, textarea {
 }
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 .site-header .main-navigation {
-  display: block;
-  background-color: #b10021;
-  text-align: center;
-  padding: 15px 0;
-  position:relative;
+    display: block;
+    background-color: #b10021;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    margin-bottom: 30px;
 }
 .navigation-bg {
 	position:absolute;
