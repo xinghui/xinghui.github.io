@@ -5,3 +5,7 @@ title: my blog
 
 <h2>{{ page.title }}</h2>
 <h2>aaaaaaaaaaaaaaa</h2>
+
+{% for post in site.posts %}
+  {% include news_item.html %}
+{% endfor %}
