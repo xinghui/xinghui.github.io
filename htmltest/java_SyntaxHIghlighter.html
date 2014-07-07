@@ -32,23 +32,7 @@
     <!-- Language hints can be put in XML application directive style comments. -->
     <!--    <?prettify linenums=40?>// start from 40-->
     <!--?prettify lang=java linenums=true linenums=40?-->
-    <pre class="prettyprint" style="border:4px solid #88c">public class PlusActionProvider extends ActionProvider {
-
-	private Context context;
-
-	public PlusActionProvider(Context context) {
-		super(context);
-		this.context = context;
-	}
-
-
-	<emp>@Override
-	public View onCreateActionView() {
-		return null;
-	}
-    </emp>
-
-	@Override
+    <pre class="prettyprint" style="border:4px solid #88c">@Override
 	public void onPrepareSubMenu(SubMenu subMenu) {
 		subMenu.clear();
 		subMenu.add(context.getString(R.string.plus_group_chat))
@@ -97,8 +81,7 @@
 	public boolean hasSubMenu() {
 		return true;
 	}
-
-}</pre>
+</pre>
 
     <script>
     </script>
