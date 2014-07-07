@@ -131,7 +131,7 @@ input, textarea {
     text-align: center;
     padding: 15px 0;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .navigation-bg {
 	position:absolute;
@@ -317,4 +317,5 @@ ul.posts li a {
 
 h2 {
     color: #b10021;
+    margin-bottom: 30px;
 }
