@@ -18,6 +18,48 @@ Google I/O 2014中已经发布了新一代的Material Design设计风格。
 [HoloEverywhere](https://github.com/Prototik/HoloEverywhere)
 
 
+```
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- <style name="Holo" parent="" /> -->
+
+    <style name="Holo.EditText" parent="">
+        <item name="android:background">@drawable/edit_text_holo_light</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="Holo.EditText.WHITELINE" parent="Holo.EditText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/edit_text_holo_light</item><!-- TODO Hugo NEED WHITE pic -->
+        <!-- <item name="android:textCursorDrawable">@android:color/white</item> -->
+    </style>
+
+</resources>
+```
+
 <!--?prettify lang=xml linenums=true linenums=1?-->
 <pre class="prettyprint" style="border:4px solid #88c">
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
