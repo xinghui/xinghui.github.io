@@ -1,6 +1,6 @@
 {% include top.html %}
 
-<body onload="prettyPrint()">
+<body>
     <div class="site-header">
         
         {% include nav.html %}
@@ -13,6 +13,13 @@
             </div>
         </div>
     </div>
+    
+    <script>
+        $(window).load(function(){ 
+            $("pre").addClass("prettyprint"); 
+            prettyPrint(); 
+        })
+    </script>
 </body>
 
 </html>

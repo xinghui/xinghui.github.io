@@ -20,7 +20,7 @@
 
 </head>
 
-<body onload="prettyPrint()">
+<body>
     <h1>Making Quines Prettier</h1>
 
     <p>
@@ -28,11 +28,9 @@
         element is prettified because it has <code>class="prettyprint"</code> and because the sourced script loads a JavaScript library that styles source code.
     </p>
 
-
-    <!-- Language hints can be put in XML application directive style comments. -->
-    <!--    <?prettify linenums=40?>// start from 40-->
-    <!--?prettify lang=java linenums=true linenums=40?-->
-    <pre class="prettyprint" style="border:4px solid #88c">@Override
+    <!--?prettify linenums=true ?-->
+    <pre>
+    @Override
 	public void onPrepareSubMenu(SubMenu subMenu) {
 		subMenu.clear();
 		subMenu.add(context.getString(R.string.plus_group_chat))
@@ -83,7 +81,17 @@
 	}
 </pre>
 
+    <!--?prettify linenums=true ?-->
+    <pre>
+            
+                <item name="android:focusable">true</item>
+              
+    </pre>
     <script>
+        $(window).load(function(){ 
+            $("pre").addClass("prettyprint"); 
+            prettyPrint(); 
+        })
     </script>
 </body>
 

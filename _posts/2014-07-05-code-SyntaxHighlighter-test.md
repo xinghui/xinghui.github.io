@@ -6,8 +6,8 @@ title: 代码高亮显示测试
 <h2>{{ page.title }}</h2>
 
 <!--?prettify lang=java linenums=true linenums=1?-->
-<pre class="prettyprint" style="border:4px solid #88c">
-@Override
+<pre>
+    @Override
 	public void onPrepareSubMenu(SubMenu subMenu) {
 		subMenu.clear();
 		subMenu.add(context.getString(R.string.plus_group_chat))
@@ -56,4 +56,4 @@ title: 代码高亮显示测试
 	public boolean hasSubMenu() {
 		return true;
 	}
-</emp>
+</pre>

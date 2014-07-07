@@ -18,8 +18,9 @@ Google I/O 2014中已经发布了新一代的Material Design设计风格。
 [HoloEverywhere](https://github.com/Prototik/HoloEverywhere)
 
 
-<!--?prettify lang=xml linenums=true linenums=1?-->
-<pre class="prettyprint" style="border:4px solid #88c">
+<!--?prettify lang=xml linenums=true ?-->
+<pre>
+    ```
     <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
         <!--
@@ -59,4 +60,5 @@ Google I/O 2014中已经发布了新一代的Material Design设计风格。
         </style>
 
     </resources>
+    ```
 </pre>
